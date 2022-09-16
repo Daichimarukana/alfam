@@ -1,0 +1,86 @@
+
+@font-face {
+	font-family: 'コーポレート・ロゴ ver2';
+	src: url(Fonts/Corporate-Logo-Bold-ver2.ttf);
+}
+
+
+body {
+    color: rgb(32,32,32);
+    background-size: cover;
+    background-attachment: fixed;
+background-image: url(../img/haikei.png);
+    	font-family: "コーポレート・ロゴ ver2";
+
+	
+	margin:0px;
+}
+
+p.photo img {
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .7);
+    width: 30%;
+    height: auto;  /* 高さは自動指定 */
+    margin-bottom: 3px;
+}
+
+img{
+    border-radius: 15px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .7);
+}
+div{
+    text-align: center;
+}
+a.btn--yellow {
+    color: rgb(255, 255, 255);
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #2f90ff;
+    border-bottom: 5px solid #2569b8;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .7);
+  }
+  
+  a.btn--yellow:hover {
+    margin-top: 3px;
+    color: #2f90ff;
+    background: #ffffff;
+    border-bottom: 2px solid #2569b8;
+  }
+  p.text img {
+  text-align: center;
+  }
+  table {
+    border-collapse: collapse;
+    text-align: center;
+  }
+  th, td {
+    padding: 5px;
+    border: 3px solid #2f90ff;
+  }
+  th {
+    background-color: #2f90ff;
+    color: #FFF;
+  }
+
+
+footer {
+    padding: 10px;
+
+    background-color: #2f90ff;
+    border-radius: 15px;
+    margin: 30px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .7);
+    color:RGB(32,32,32);
+    
+}
+
+.example {
+    margin: 10px auto;
+    width:50px;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
