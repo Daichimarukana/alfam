@@ -1,8 +1,5 @@
 
-@font-face {
-	font-family: 'コーポレート・ロゴ ver2';
-	src: url(Fonts/Corporate-Logo-Bold-ver2.ttf);
-}
+.wf-mplus1p { font-family: "M PLUS 1p"; }
 
 
 body {
@@ -10,9 +7,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
 background-image: url(../img/haikei.png);
-    	font-family: "コーポレート・ロゴ ver2";
-
-	
+font-family: "M PLUS 1p";
 	margin:0px;
 }
 
@@ -84,6 +79,23 @@ a.btn--yellow {
     color: #FFF;
   }
 
+  a.btn--red {
+    color: rgb(255, 255, 255);
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color:rgb(255,68,68);
+    border-bottom: 5px solid rgb(225,32,32);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .7);
+  }
+  
+  a.btn--red:hover {
+    margin-top: 3px;
+    color: rgb(255,68,68);
+    background: #ffffff;
+    border-bottom: 2px solid rgb(225,32,32);
+  }
+
 
 footer {
     padding: 10px;
@@ -135,3 +147,6 @@ footer {
   border-color: #ff4500;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, .7);
  }
+body{
+  font-family: "M PLUS 1p";
+}
